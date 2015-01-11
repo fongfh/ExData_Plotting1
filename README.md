@@ -1,4 +1,4 @@
-## Introduction
+## Exploratory Data Analysis: Project 1
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -46,12 +46,12 @@ calculate a rough estimate of how much memory the dataset will require
 in memory before reading into R. Make sure your computer has enough
 memory (most modern computers should be fine).
 
-* We will only be using data from the dates 2007-02-01 and
+* We are using data from the dates 2007-02-01 and
 2007-02-02. One alternative is to read the data from just those dates
 rather than reading in the entire dataset and subsetting to those
 dates.
 
-* You may find it useful to convert the Date and Time variables to
+* It useful to convert the Date and Time variables to
 Date/Time classes in R using the `strptime()` and `as.Date()`
 functions.
 
@@ -60,16 +60,16 @@ functions.
 
 ## Making Plots
 
-Our overall goal here is simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
+Our overall goal here is to examine how household energy usage
+varies over a 2-day period in February, 2007. The task is to
 reconstruct the following plots below, all of which were constructed
 using the base plotting system.
 
-First you will need to fork and clone the following GitHub repository:
+The first task is to fork and clone the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
 
-For each plot you should
+For each plot:
 
 * Construct the plot and save it to a PNG file with a width of 480
 pixels and a height of 480 pixels.
@@ -84,12 +84,12 @@ include the code that creates the PNG file.
 
 * Add the PNG file and R code file to your git repository
 
-When you are finished with the assignment, push your git repository to
+When finished with the assignment, the reuslts are pushed from the git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-The four plots that you will need to construct are shown below. 
+The four plots to be constructed are shown below. 
 
 
 ### Plot 1
